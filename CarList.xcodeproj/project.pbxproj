@@ -13,6 +13,9 @@
 		E74BA3642947A52100989463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74BA3622947A52100989463 /* Main.storyboard */; };
 		E74BA3662947A52200989463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74BA3652947A52200989463 /* Assets.xcassets */; };
 		E74BA3692947A52200989463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74BA3672947A52200989463 /* LaunchScreen.storyboard */; };
+		E74BA3712947A57800989463 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = E74BA3702947A57800989463 /* data.json */; };
+		E74BA3732947A7E600989463 /* CarDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74BA3722947A7E600989463 /* CarDataResponse.swift */; };
+		E79DAF3C2947C650007BD3BA /* CarListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79DAF3B2947C650007BD3BA /* CarListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E74BA3652947A52200989463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E74BA3682947A52200989463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E74BA36A2947A52200989463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74BA3702947A57800989463 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		E74BA3722947A7E600989463 /* CarDataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDataResponse.swift; sourceTree = "<group>"; };
+		E79DAF3B2947C650007BD3BA /* CarListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +62,16 @@
 		E74BA35B2947A52100989463 /* CarList */ = {
 			isa = PBXGroup;
 			children = (
+				E79DAF3B2947C650007BD3BA /* CarListCell.swift */,
 				E74BA35C2947A52100989463 /* AppDelegate.swift */,
 				E74BA35E2947A52100989463 /* SceneDelegate.swift */,
 				E74BA3602947A52100989463 /* ViewController.swift */,
+				E74BA3722947A7E600989463 /* CarDataResponse.swift */,
 				E74BA3622947A52100989463 /* Main.storyboard */,
 				E74BA3652947A52200989463 /* Assets.xcassets */,
 				E74BA3672947A52200989463 /* LaunchScreen.storyboard */,
 				E74BA36A2947A52200989463 /* Info.plist */,
+				E74BA3702947A57800989463 /* data.json */,
 			);
 			path = CarList;
 			sourceTree = "<group>";
@@ -128,6 +137,7 @@
 				E74BA3692947A52200989463 /* LaunchScreen.storyboard in Resources */,
 				E74BA3662947A52200989463 /* Assets.xcassets in Resources */,
 				E74BA3642947A52100989463 /* Main.storyboard in Resources */,
+				E74BA3712947A57800989463 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E74BA3732947A7E600989463 /* CarDataResponse.swift in Sources */,
 				E74BA3612947A52100989463 /* ViewController.swift in Sources */,
+				E79DAF3C2947C650007BD3BA /* CarListCell.swift in Sources */,
 				E74BA35D2947A52100989463 /* AppDelegate.swift in Sources */,
 				E74BA35F2947A52100989463 /* SceneDelegate.swift in Sources */,
 			);

@@ -1,0 +1,88 @@
+
+{
+    "status": "OK",
+      "copyright": "Copyright (c) 2022 Antonio Sampaio De Vuono",
+      "num_results": 20,
+      "results": [
+      {
+         "id": 1,
+         "image": "lamborguini",
+         "name": "Lamborghini Gallardo",
+         "cor": "Amarela",
+         "ano": "2020/2021",
+         "cambio": "manual"
+      },
+      {
+         "id": 2,
+         "image": "ferrari",
+         "name": "Ferrari 458",
+         "cor": "Vermelha",
+         "ano": "2022/2023",
+         "cambio": "Automático"
+      },
+      {
+         "id": 3,
+         "image": "porsche",
+         "name": "Porsche 911 Turbo",
+         "cor": "Cinza",
+         "ano": "2022/2023",
+         "cambio": "Automático"
+      },
+      {
+         "id": 4,
+         "image": "bmw",
+         "name": "BMW M3",
+         "cor": "Preta",
+         "ano": "2018/2019",
+         "cambio": "Automático"
+      },
+      {
+         "id": 5,
+         "image": "aduir8",
+         "name": "Audi R8",
+         "cor": "Branco",
+         "ano": "2022/2023",
+         "cambio": "Automático"
+      },
+      {
+         "id": 6,
+         "image": "adui",
+         "name": "Audi RS6",
+         "cor": "Preto",
+         "ano": "2022/2023",
+         "cambio": "Automático"
+      },
+      {
+         "id": 7,
+         "image": "bmwm6",
+         "name": "BMW M6",
+         "cor": "Azul",
+         "ano": "2022/2023",
+         "cambio": "Automático"
+      },
+      {
+         "id": 8,
+         "image": "porsche2",
+         "name": "Porsche Cayene",
+         "cor": "Preta",
+         "ano": "2022/2023",
+         "cambio": "Automático"
+      },
+      {
+         "id": 9,
+         "image": "bmw2",
+         "name": "BMW X5",
+         "cor": "Branca",
+         "ano": "2022/2023",
+         "cambio": "Automático"
+      },
+      {
+         "id": 10,
+         "image": "mercedes",
+         "name": "Mercedes AMG GT",
+         "cor": "Cinza",
+         "ano": "2022/2023",
+         "cambio": "Automático"
+      },
+    ]
+}
